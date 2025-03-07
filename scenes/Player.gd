@@ -34,3 +34,7 @@ func _process(_delta):
 			$Sprite2D.flip_h = false
 		else:
 			$Sprite2D.flip_h = true
+
+
+func _on_falling_fish_body_shape_entered(body_rid: RID, body: Node, body_shape_index: int, local_shape_index: int) -> void:
+	pass # Replace with function body.

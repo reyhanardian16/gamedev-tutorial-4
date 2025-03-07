@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://o27ffcf8pg8k"]
+
+[ext_resource type="Texture2D" uid="uid://chgqimvh7rdh6" path="res://assets/Familiar Looking Rocket.png" id="1_55cd7"]
+[ext_resource type="PackedScene" uid="uid://cp7wee3102vc0" path="res://scenes/AreaTrigger.tscn" id="2_vludh"]
+
+[node name="Sprite2D" type="Sprite2D"]
+position = Vector2(1874, 269)
+texture = ExtResource("1_55cd7")
+
+[node name="WinArea" parent="." instance=ExtResource("2_vludh")]
